@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin-inline: auto;
+}
+
+//navbar
+.navbar {
+    padding: 5px 0 5px 0;
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    background: #B5B5B5;
+}
+
+.navbar .box-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.navbar .box-navbar .navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar .box-navbar .navigation ul li {
+    list-style-type: none;
+}
+
+.navbar .box-navbar .navigation ul li a {
+    display: flex;
+    text-decoration: none;
+    color: #152C5B;
+}
+
+//page box
+.page {
+    width: 100%;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.page .box-page {
+    display: flex;
+    align-items: center;
+}
+
+.page .box-page .box ul {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.485) 2px 2px 16px;
+    margin-top: 109%;
+    margin-left: 75%;
+
+}
+
+.page .box-page .box ul li {
+    list-style-type: none;
+}
+
+.page .box-page .box ul li a {
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #152C5B;
+    margin-left: 35%;
+}
+
+.page .box-page .box-img img {
+    width: 169%;
+    margin-left: -69%;
+    margin-top: 50px;
+}
+
+//destinasi
+.destinasi {
+    min-height: 100%;
+}
+
+.destinasi .box-destinasi {
+    width: 80vw;
+    height: 65vh;
+    display: flex;
+}
+
+
+
+.destinasi .box-destinasi .destinasi-card {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+.destinasi h1 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.destinasi .box-destinasi .destinasi-card .box-card {
+    background-color: #0066FE;
+    width: 241px;
+    height: 140%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 40px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-right: 85px;
+    left: 400px;
+}
+
+.destinasi .box-destinasi .destinasi-card .box-card .pic {
+    width: 100%;
+    height: auto;
+}
+
+.destinasi .box-destinasi .destinasi-card .box-card .pic img {
+    width: 200px;
+}
+
+.destinasi .box-destinasi .destinasi-card .team-content {
+    width: 100%;
+}
+
+.destinasi .box-destinasi .destinasi-card .team-content h3 {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+.destinasi .box-destinasi .destinasi-card .card-detail button {
+    margin-left: 110px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #000000;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.destinasi .box-destinasi .destinasi-card .page-destinasi .box-card .stars img {
+    width: 27px;
+}
+
+.destinasi .box-destinasi .destinasi-card .page-destinasi .box-card .stars .card-view p {
+    font-size: 12px;
+    font-weight: medium;
+    color: white;
+}
+
+//rekomendasi
+.rekom {
+    width: 100%;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.rekom .box-rekom {
+    display: flex;
+    align-items: center;
+}
+
+
+.rekom .box-rekom .box .rekom-page1 {
+    position: relative;
+    width: 500px;
+    height: 50px;
+    display: grid;
+    align-items: center;
+    gap: 70px;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.485) 2px 2px 16px;
+    margin-top: 57%;
+    margin-left: -57%;
+}
+
+.rekom .box-rekom .box .rekom-page1 h3 {
+    position: absolute;
+    display: flex;
+    background: none;
+    top: 260px;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.rekom .box-rekom .box .rekom-page1 img:nth-child(1) {
+    position: absolute;
+    top: 245px;
+}
+
+.rekom .box-rekom .box .rekom-page1 img:nth-child(2) {
+    position: relative;
+}
+
+.rekom .box-rekom .box p {
+    position: relative;
+    display: flex;
+    margin-right: 100%;
+    background: white;
+    color: black;
+}
+
+.rekom-page2 {
+    width: 500px;
+    display: flex;
+}
+
+.rekom-page2 .box-rekom {
+    display: grid;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .pic-rekom img {
+    width: 550px;
+    height: 350px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 350px;
+    margin-left: 40px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .retangle img {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .rekom-content h3 {
+    position: relative;
+    margin-top: -90px;
+    margin-left: 60px;
+    color: white;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .pic-rekom2 img {
+    width: 600px;
+    height: 350px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: -330px;
+    margin-left: 680px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .retangle2 img {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -8%;
+    margin-left: 680px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .rekom-content2 h3 {
+    position: relative;
+    margin-top: -90px;
+    margin-left: 725px;
+    color: white;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .pic-rekom3 img {
+    width: 380px;
+    height: 380px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .retangle3 img {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -7%;
+    margin-left: 40px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .rekom-content3 h3 {
+    position: relative;
+    margin-top: -90px;
+    margin-left: 58px;
+    color: white;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .pic-rekom4 img {
+    width: 380px;
+    height: 380px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: -360px;
+    margin-left: 469px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .retangle4 img {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -7%;
+    margin-left: 469px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .rekom-content4 h3 {
+    position: relative;
+    margin-top: -90px;
+    margin-left: 485px;
+    color: white;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .pic-rekom5 img {
+    width: 380px;
+    height: 380px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: -360px;
+    margin-left: 900px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .retangle5 img {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -7%;
+    margin-left: 900px;
+}
+
+.rekom-page2 .box-rekom .rekom-card .page-rekom2 .card-2 .rekom-content5 h3 {
+    position: relative;
+    margin-top: -90px;
+    margin-left: 915px;
+    color: white;
+}
+
+
+//restoran
+.restoran {
+    min-height: 100%;
+}
+
+.restoran .box-restoran {
+    width: 80vw;
+    height: 65vh;
+    display: flex;
+}
+
+
+
+.restoran .box-restoran .restoran-card {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+.restoran h1 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.restoran .box-restoran .restoran-card .restoran-box1 {
+    background-color: #0066FE;
+    width: 241px;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 40px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-right: 85px;
+    left: 400px;
+}
+
+.restoran .box-restoran .restoran-card .restoran-box1 .pic-restoran {
+    width: 100%;
+    height: auto;
+}
+
+.restoran .box-restoran .restoran-card .restoran-box1 .pic-restoran img {
+    display: flex;
+    width: 241px;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+.restoran .box-restoran .restoran-card .restoran-content {
+    width: 100%;
+}
+
+.restoran .box-restoran .restoran-card .restoran-content h3 {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.restoran .box-restoran .restoran-card .restoran-detail button {
+    margin-left: 120px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #000000;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.restoran .box-restoran .restoran-card .page-restoran .restoran-box1 .restoran-view p {
+    font-size: 12px;
+    font-weight: medium;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: rgb(253, 253, 253);
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #3252DF;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgba(0, 3, 255, 0.8);
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: rgba(0, 3, 255, 0.8);
+    padding-left: 8px;
+}
+
+.footer-col .social-media a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0 10px 10px 0;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-media a:hover {
+    color: rgba(0, 3, 255, 0.8);
+    background-color: rgba(236, 236, 236, 0.8);
+}
+
+.fixed-footer {
+    width: 100%;
+    position: relative;
+    background: #f7f7f7;
+    margin: 0 10px 10px 0;
+    padding: 10px 0;
+    color: rgb(26, 25, 25);
+    text-align: center;
+}
+
+.fixed-footer {
+    bottom: 0;
+}
